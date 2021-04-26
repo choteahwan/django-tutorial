@@ -1,5 +1,9 @@
 from django import forms
 from pybo.models import Question,Answer
+
+# form 
+# 폼, 모델폼으로 나눈다.
+# 
 class QuestionForm(forms.ModelForm):
     class Meta:
         model = Question
